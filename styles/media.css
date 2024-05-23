@@ -1,0 +1,395 @@
+@media screen and (max-width: 768px) {
+
+    body {
+        min-width: 768px;
+    }
+
+    .conteudo_total {
+        gap: 0px;
+    }
+
+    /* Header - Cabeçalho */
+
+    .cabecalho__conteudo {
+        width: 768px;
+        padding: 16px 32px;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    .nav_links.contato {
+        display: block;
+    }
+
+    /* Container Um */
+
+    .container_um {
+        max-width: 768px;
+        padding: 32px;
+        gap: 32px;
+    }
+
+    .container_conteudo {
+        gap: 8px;
+    }
+
+    .conteudo_titulo {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+    }
+
+    .conteudo_texto {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.78px;
+    }
+
+    .conteudo_links_img {
+        margin-left: 0px;
+    }
+
+    .conteudo_imagem_perfil img {
+        width: 146px;
+        height: 146px;
+    }
+
+    /* Container Dois */
+
+    .sobre_mim {
+        width: 704px;
+        padding: 32px;
+    }
+
+    .sobre_mim_titulo {
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .sobre_mim_texto {
+        width: 704px;
+        height: 112px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.44px;
+    }
+
+    /* Container Três */
+
+    .container_tres {
+        width: 704px;
+        padding: 32px 32px;
+    }
+
+    .skills_titulo,
+    .hobbies_titulo {
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .hobbies_titulo {
+        margin-top: 64px;
+    }
+
+    .skills,
+    .hobbies {
+        display: flex;
+        justify-content: flex-start;
+        gap: 32px 16px;
+    }
+
+    .hobbies {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+    }
+
+    .skills_blocos,
+    .hobbies_blocos {
+        width: 192px;
+        height: 100px;
+    }
+
+    /* Container Quatro */
+
+    .formacao_conteudo {
+        width: 704px;
+    }
+
+    .formacao_academica_titulo {
+        padding: 32px 0px;
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .formacao_bloco {
+        padding-bottom: 32px;
+        gap: 8px;
+    }
+
+    .formacao_bloco h3 {
+        margin: 0px;
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+
+    .formacao_bloco p {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .formacao_academica_img {
+        width: 224px;
+        height: 128px;
+    }
+
+    .formacao_academica_img img {
+        width: 70px;
+        height: 48px;
+    }
+
+    /* Container cinco */
+
+    .container_cinco {
+        width: 704px;
+        padding: 32px;
+    }
+
+    .experiencia_profissional_titulo {
+        margin-bottom: 16px;
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .experiencia_profissional_projetos {
+        width: 704px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .experiencia_img_decodificador {
+        width: 704px;
+    }
+
+    .experiencia_titulo {
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+
+    .experiencia_subtitulo {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.44px;
+    }
+
+    .btn {
+        max-width: 108px;
+        padding: 12px 16px 12px 16px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16.44px;
+    }
+
+    .btn_prenchido {
+        max-width: 96px;
+        padding: 12px 16px 12px 16px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16.44px;
+    }
+
+    /* Container Seis */
+
+    .container_formulario {
+        width: 704px;
+        padding: 32px;
+
+    }
+
+    .campo_formulario {
+        width: 684px;
+    }
+
+    .campo_texto {
+        width: 684px;
+    }
+
+    .img_formulario {
+        display: none;
+    }
+
+    .titulo_formulario {
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .btn_formulario {
+        margin-top: 16px;
+        width: 151px;
+        height: 40px;
+        padding: 12px 16px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16.44px;
+    }
+
+    .container_img {
+        margin-right: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+    body {
+        min-width: 425px;
+    }
+
+    /* Header - Cabeçalho */
+
+    .container_cabecalho {
+        gap: 0;
+    }
+
+    .cabecalho__conteudo {
+        width: 425px;
+        padding: 16px;
+    }
+
+    .cabecalho__nome span {
+        width: 102px;
+    }
+
+    .nav_links.contato {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.44px;
+    }
+   
+    /* Container Um */
+
+    .container_um {
+        max-width: 425px;
+        padding: 16px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container_conteudo {
+        gap: 16px;
+    }
+
+    .conteudo_titulo {
+        text-align: justify;
+    }
+
+    .conteudo_texto {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.44px;
+    }
+
+    .conteudo_links {
+        gap: 10px;
+    }
+
+    .conteudo_links_img {
+        margin-left: 0px;
+    }
+
+    .conteudo_imagem_perfil img {
+        width: 98px;
+        height: 98px;
+    }
+
+    /* Container Dois */
+
+    .sobre_mim {
+        width: auto;
+        padding: 16px;
+    }
+
+    .sobre_mim_texto {
+        width: 393px;
+        height: auto;
+    }
+
+    /* Container Três */
+
+    .container_tres {
+        width: auto;
+        padding: 16px;
+    }
+
+    .hobbies_titulo {
+        margin-top: 32px;
+    }
+
+    .hobbies, .skills {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+    }
+
+    .skills_blocos,
+    .hobbies_blocos {
+        width: 156px;
+        height: 118px;
+    }
+
+    /* Container Quatro */
+
+    .formacao_conteudo {
+        width: auto;
+        padding: 32px;
+    }
+
+    .formacao_academica_titulo {
+        padding: 0px 0px 32px 0px;
+    }
+
+    .formacao_bloco {
+        padding-bottom: 0px;
+    }
+
+    .formacao_academica_img {
+        width: 361px;
+        height: 128px;
+    }
+
+    /* Container cinco */
+
+    .container_cinco {
+        width: auto;
+    }
+
+    .experiencia_profissional_projetos {
+        width: auto;
+    }
+
+    .experiencia_img_decodificador {
+        width: 361px;
+    }
+
+    /* Container Seis */
+
+    .container_formulario {
+        width: 425px;
+    }
+
+    .formulario {
+        width: auto;
+    }
+
+    .formulario_conteudo {
+        width: 361px;
+    }
+
+    .campo_formulario, .campo_texto {
+        width: 341px;
+    }
+
+}
